@@ -1,0 +1,7 @@
+---
+- name: Alfred
+  hosts: all
+  become: yes
+
+  tasks:
+    - include_tasks: unattended-upgrades.yml
